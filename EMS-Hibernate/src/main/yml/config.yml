@@ -1,0 +1,13 @@
+url: https://localhost:8080
+database:
+  # the name of the JDBC driver, mysql in our case
+  driverClass : com.mysql.jdbc.Driver
+  # the username
+  user : root
+  #user: root
+  # the password
+  password : codec@rgukt.in
+  # the JDBC URL; the database is called EMS
+  url: jdbc:mysql://localhost:3306/EMS
+  properties:
+    charSet: UTF-8
